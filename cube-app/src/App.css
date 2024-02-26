@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+.App {
+  background-color: #121212;
+}
+
+.cube__crypto {
+  margin: 10px;
+}
+.header__24 {
+  font-size: 24px;
+  padding: 1em;
+
+  color: whitesmoke;
+}
+
+.terms__of__use {
+  padding: 1em;
+  height: 300px;
+  font-size: 14px;
+  color: whitesmoke;
+}
