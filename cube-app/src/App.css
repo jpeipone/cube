@@ -11,16 +11,30 @@
 .cube__crypto {
   margin: 10px;
 }
+
+.row__24__colors {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
 .header__24 {
   font-size: 24px;
-  padding: 1em;
 
   color: whitesmoke;
+  margin-right: 40px;
 }
 
 .terms__of__use {
   padding: 1em;
   height: 300px;
-  font-size: 14px;
+
   color: whitesmoke;
+}
+
+.powered__coinpaprika {
+  font-size: 14px;
+}
+
+p {
+  font-size: 10px;
 }

@@ -1,0 +1,42 @@
+ul {
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: none;
+  width: 24px;
+  height: 20px;
+  color: whitesmoke;
+}
+
+.color__green__7 {
+  background-color: green;
+
+  align-items: center;
+}
+
+.color__green__1 {
+  background-color: #76ba1b;
+}
+
+.color__green__0 {
+  background-color: #66c959;
+}
+
+.color__0 {
+  background-color: orange;
+}
+
+.color__red__0 {
+  background-color: #f94a29;
+}
+
+.color__red__1 {
+  background-color: red;
+}
+
+.color__red__7 {
+  background-color: #820300;
+}
