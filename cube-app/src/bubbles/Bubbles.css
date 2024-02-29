@@ -1,0 +1,44 @@
+.bubble-wrapper__green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  border: 3px solid #4a11ed;
+  overflow: hidden;
+}
+
+.bubble-wrapper__red {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  border: 3px solid rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+.bubble__ticker {
+  color: whitesmoke;
+  /* text-shadow: black 4px 8px 20px; */
+  background: rgba(0, 0, 0, 0.45);
+  font-weight: bold;
+  z-index: 99;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.bubble__change__24h {
+  /* background-color: beige; */
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.45);
+
+  font-weight: bold;
+  z-index: 99;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+a {
+  text-decoration: none;
+}

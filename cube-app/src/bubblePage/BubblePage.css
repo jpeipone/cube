@@ -1,0 +1,61 @@
+.bubble-page-container {
+  color: #121212;
+
+  width: 500px;
+  height: 600px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(57, 64, 67, 0.4) 0px 2px 3px 0px,
+    rgba(57, 64, 67, 0.15) 0px 2px 3px 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bubble-container__data {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.bubble__coin__row {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.bubble__coin__name {
+  padding: 2em;
+  text-align: center;
+}
+
+.link__homepage {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bubble__coin__label {
+  width: 180px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bubble__data {
+  width: 120px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+  .bubble-page-container {
+    width: 300px;
+  }
+}

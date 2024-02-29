@@ -1,22 +1,12 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Helvetica, sans-serif, Arial;
-  box-sizing: border-box;
-}
-
-.App {
+.homepage {
   background-color: whitesmoke;
 }
 
-.cube__crypto {
-  margin: 10px;
-}
 .bubbles-window {
   height: 90vh;
   /* background-image: url("/public/images/icelandic-auroras.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover; */
   background-color: whitesmoke;
 }
 .row__24__colors {
