@@ -3,10 +3,10 @@ import Bubbles from "./Bubbles";
 import axios from "axios";
 
 const Colliding = (bubble1, bubble2) => {
-  const dx = bubble1.left + 50 - (bubble2.left + 50);
-  const dy = bubble1.top + 50 - (bubble2.top + 50);
+  const dx = bubble1.left + 65 - (bubble2.left + 65);
+  const dy = bubble1.top + 65 - (bubble2.top + 65);
   const distance = Math.sqrt(dx * dx + dy * dy);
-  return distance < 100;
+  return distance < 130;
 };
 
 const BubblesMove = () => {
@@ -38,8 +38,8 @@ const BubblesMove = () => {
         value: coin?.quotes?.USD?.percent_change_24h,
         price: coin?.quotes?.USD?.price,
         name: coin?.name,
-        x: Math.random() * (window.innerWidth - 100), //stays on view (debending that bubble width is 100)
-        y: Math.random() * (window.innerHeight - 100), //stays on view
+        x: Math.random() * (window.innerWidth - 130), //stays on view (debending that bubble width is 100)
+        y: Math.random() * (window.innerHeight - 130), //stays on view
       }))
     );
   }, [coinsBubble]);
@@ -66,11 +66,11 @@ const BubblesMove = () => {
             collided = true;
 
             //right side
-            if (window.width - 100 < newX) {
+            if (window.width - 190 < newX) {
               newX = newX - 50;
             }
             //top side
-            else if (newY > window.height - 90) {
+            else if (newY > window.height - 100) {
               newY = newY + 50;
             }
             //left side

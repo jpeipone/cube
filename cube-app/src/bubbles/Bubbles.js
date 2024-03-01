@@ -54,8 +54,8 @@ const Bubbles = React.memo(({ ticker, value, x, y, name, price }) => {
         ...animation,
         position: "absolute",
         borderRadius: "50%",
-        width: "100px",
-        height: "100px",
+        width: "130px",
+        height: "130px",
 
         cursor: isDragging ? "grabbing" : "grab",
         background: weatherSvg(value),
